@@ -20,7 +20,7 @@ public class Contakt {
                 }
             }
         } else {
-            System.out.println("Контакт не найденю");
+            System.out.println("Контакт не найден.");
         }
     }
 }
