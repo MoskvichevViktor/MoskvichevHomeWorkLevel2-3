@@ -36,7 +36,7 @@ public class Main {
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         Integer count;
         for(String i : words){
-            count = map.get(i);пп
+            count = map.get(i);
             map.put( i, count == null ? 1 : count + 1);
         }
         System.out.println(map);
